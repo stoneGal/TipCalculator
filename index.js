@@ -1,13 +1,3 @@
-// let bill, tip, total, calc;
-
-// function Tipcalculate(){
-// bill = prompt('kindly enter the amount of your bill in naira');
-// alert('you input a bill of  ' + bill + '₦');
-// tip = prompt('enter the amount of your tip in percentage');
-// alert('you input a tip of  ' + tip + '%');
-//  calc = (Math.floor(tip/100)) * bill;
-//  total = (calc + bill);
-// alert('your tip is ' + total+'₦');
 
 $(document).ready(function() {
   $('#formButton').click(function() {
@@ -30,10 +20,10 @@ function calculateTip() {
   let individual = Total / peopleshare;
 
   //Display Total
-  document.getElementById('tipTotal').innerHTML = total + '₦';
-  document.getElementById('billTotal').innerHTML = Total + '₦';
+  document.getElementById('tipTotal').innerHTML = '₦' + total;
+  document.getElementById('billTotal').innerHTML = '₦' + Total;
   document.getElementById('each').innerHTML =
-    individual + '₦  ' + '    per person';
+    '₦' + individual  +  '      per person';
 }
 
 //Click to call function
