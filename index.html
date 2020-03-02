@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>TipCalculator</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header">
+
+					<!-- Inner -->
+						<div class="inner">
+							<header>
+								<h1><a href="index.html" id="logo">Welcome!</a></h1>
+								<hr />
+								<p>Bethel's Tip Calculator.</p>
+							</header>
+							<footer>
+								<a href="#" id="formButton" class="button circled scrolly ">Start</a>
+
+
+
+
+		<form id="tipcalc" >
+			<div id="container">
+ 
+								<h2>Tip Calculator</h2>
+								
+								<div id="calculator">
+								
+								<div id="form">
+								
+								<h3>How much was your bill?</h3>
+								
+								<input id="billAmt" type="text" placeholder="Enter your bill amount in ₦">
+								
+								<h3><p>How good was the service?</p>
+								
+								<select id="servicequality">
+								
+								<option>click to select your prefered service </option>
+								<option value="30">30% : outstanding service</option>
+								<option value="20">20% : Good service</option>
+								<option value="10">10% : ok service</option>
+								<option value="5">5% : bad sevice </option>
+								<option value="0">0% :  no tip</option>
+								
+								</select></h3>
+
+								<h3>Number of people sharing the bill?</h3>
+								<input id="peopleshare" type="number">
+								
+								<button type="button" id="calculate">Calculate!</button>
+								
+								</div>
+								
+								<div id="totaltip">
+								
+								<h3>Tip Total:-
+								
+								<span id=tipTotal></span></h3>
+
+								<h3>Bill Total:-
+								<span id=billTotal></span></h3>
+
+								<h3>Bill of Each individual:-
+									<span id=each></span></h3>
+								
+								</div>
+								</form>
+
+
+							</footer>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+									</ul>
+							</ul>
+						</nav>
+				</div>
+		<!-- Scripts -->
+		
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="index.js"></script>
+			
+
+	</body>
+</html>
